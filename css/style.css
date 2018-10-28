@@ -463,7 +463,7 @@ form #search_icon {
     margin: 15px 0;
 }
 
-#main-left .boxes .boxes-items .pic-brand {
+.boxes-items .pic-brand {
     margin: auto;
     padding: 0;
     width: 170px;
@@ -662,4 +662,92 @@ form #search_icon {
 #att{
     font-family: b yekan;
     margin-right: 7px;
+}
+ul#mavared{
+    margin-right: 18px;
+    height: 100px;
+    overflow: auto;
+}
+#mavared .mavared{
+    font-family: b Yekan;
+    font-size: 0.8em;
+    list-style: unset;
+    margin-right: 12px;
+    height: 22px;
+}
+
+#m-pro{
+    width: 100%;
+    height: 290px;
+    clear: both;
+    padding: 15px;
+}
+#m-pro .ul-prod{
+    width: 100%;
+    height: 40px;
+    background: #eee;
+}
+.ul-prod .li-prod{
+    width: 49%;
+    height: 100%;
+    font-family: b yekan;
+    font-size: 0.9em;
+    line-height: 38px;
+}
+.ul-prod .li-prod:first-child{
+    text-align-last: left;
+    padding-left: 15px;
+}
+.ul-prod .li-prod:last-child{
+    padding-right: 15px;
+}
+#under-f{
+    width: 70%;
+    height: 260px;
+    margin: auto;
+    padding-top: 30px;
+}
+#under-f .under-li{
+    width: 100%;
+    height: 40px;
+
+}
+#under-f .under-li:nth-child(2n+1){
+    background: #eee;
+}
+.under-li .under-span:nth-child(2n+1){
+    padding-right: 10px;
+    width: 20%;
+    height: 40px;
+    display: inline-block;
+    line-height: 38px;
+}
+.under-li .under-span:nth-child(2n+2){
+    padding-right: 10px;
+    width: 75%;
+    height: 40px;
+    display: inline-block;
+    line-height: 38px;
+}
+#down-scrooling{
+    width: 100%;
+    height: 290px;
+    clear: both;
+}
+#scroll-mavared{
+    width: 80%;
+    height: 290px;
+    clear: both;
+}
+#scroll-mavared .boxes-items{
+    float: right;
+    width: 200px;
+    height: 290px;
+    padding: 10px;
+    position: relative;
+    margin: 15px 0;
+}
+#down-scrooling section img{
+    width: 10%;
+    height: 100%;
 }
