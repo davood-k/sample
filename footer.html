@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>site frooshgahi</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<section class="container footer fixed-bottom">
+
+    <div class="row">
+
+        <div class="col-md-2 footer_col_1">
+
+            <ul id="ul_col">
+
+                <li class="li_col">
+                    خدمات مشتریان
+                </li>
+
+                <li class="li_col">
+                    سوالات متداول
+                </li>
+
+                <li class="li_col">
+                    بازگرداندن کالا
+                </li>
+
+                <li class="li_col">
+                    شرایط استفاده
+                </li>
+
+                <li class="li_col">
+                    حریم شخصی
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="col-md-2">
+
+            <ul id="ul_col_2">
+
+                <li class="li_col">
+                    اطلاعات ما
+                </li>
+
+                <li class="li_col">
+                    درباره ما
+                </li>
+
+                <li class="li_col">
+                    تماس با ما
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="col-md-4 networks-social">
+            <p>
+                به ما در رسانه های اجتماعی بپیوندید
+            </p>
+
+            <div class="row col-6 pull-4">
+                <section class="s_net_t">
+                    <img src="images/twitter-logo-button.svg" alt="">
+                </section>
+
+                <section class="s_net_g">
+                    <img src="images/google-plus(2).svg" alt="">
+                </section>
+                <section class="s_net_f">
+                    <img src="images/facebook-logo-button.svg" alt="">
+                </section>
+            </div>
+            <div class="row col-6 pull-4">
+                <section class="s_net_t">
+                    <img class="ssd" src="images/twitter-logo-button.svg" alt="">
+                </section>
+
+                <section class="s_net_g">
+                    <img class="ddf" src="images/google-plus(2).svg" alt="">
+                </section>
+                <section class="s_net_f">
+                    <img class="ffg" src="images/facebook-logo-button.svg" alt="">
+                </section>
+            </div>
+
+        </div>
+        <div class="col-md-4 text_end">
+            <p id="text_daner">
+                تمامی حقوق این سایت متعلق به دانشگاه امیرکبیر بوده و هرگونه استفاده از منابع وطراحی های این سایت توسط
+                نهادی خارج از دانشگاه با پیگرد قانونی همراه خواهد بود.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        $('.ffg').hover(function () {
+                $('.ffg').attr({src: "images/facebook.svg"});
+
+            },
+            function () {
+                $('.ffg').attr({src: "images/facebook-logo-button.svg"});
+            });
+        $('.ddf').hover(function () {
+                $('.ddf').attr({src: "images/google-plus(1).svg"});
+
+            },
+            function () {
+                $('.ddf').attr({src: "images/google-plus(2).svg"});
+            });
+
+        $('.ssd').hover(function () {
+                $('.ssd').attr({src: "images/twitter.svg"});
+
+            },
+            function () {
+                $('.ssd').attr({src: "images/twitter-logo-button.svg"});
+            });
+
+
+    });
+</script>
+
+</body>
+</html>

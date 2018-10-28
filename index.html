@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>site frooshgahi</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="container">
+    <button class="item d-block  btn btn-group btn-secondary float-right">
+        عضویت
+    </button>
+    <button class="item d-block btn btn-group inter-btn offset-3 float-right">
+        ورود
+    </button>
+
+    <a href="#" class="item d-block navbar-brand text-gray-dark col-sm-2 float-right">
+        Clothster
+    </a>
+    <form class="form-inline d-flex justify-content-end">
+        <input class="btn btn-secondary w-75" placeholder="search" style="position:relative;">
+        <img id="search_icon" src="images/search.svg" alt="search">
+    </form>
+    <nav class="navbar bg-faded navbar-inverse navbar-toggleable-sm d-inline-block" style="background: #fff;">
+        <div class="container d-flex justify-content-center">
+
+
+            <div class="navbar-nav">
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    مردانه
+                </a>
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    زنانه
+                </a>
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    بچه گانه
+                </a>
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    ورزشی
+                </a>
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    تخفیف
+                </a>
+
+                <a href="#" class="nav-item nav-link text-gray-dark">
+                    برندها
+                </a>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="horizental_1"></div>
+</header>
+
+
+<section class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/carousel-fish.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel-lifestyle.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel-stateoftheart.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel-exoticanimals.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <section id="img-hover" class="col-lg-12">
+
+        <section class="type_person col-md-4 hover-img" id="man">
+            <img src="images/man.jpg" alt="mans">
+            <span class="text-down-img">
+                مردانه
+            </span>
+        </section>
+
+        <section class="type_person col-md-4 hover-img" id="woman">
+            <img src="images/woman.jpg" alt="womans">
+            <span class="text-down-img">
+زنانه
+            </span>
+        </section>
+
+        <section class="type_person col-md-4 hover-img" id="child">
+            <img src="images/child.jpg" alt="childs">
+            <span class="text-down-img">
+بچه گانه
+            </span>
+        </section>
+
+    </section>
+
+    <p id="want-beter" class="col-12 d-flex justify-content-center">
+        بهترین ها را از ما خرید کنید
+    </p>
+
+    <div class="container sec-down">
+        <section id="member-pls" class="col-md-4 col-sm-6 d-flex justify-content-center">
+            <img id="image-member" src="images/mail.svg" alt="" class="d-block ">
+            <p class="text-box-titr">
+                در خبرنامه ما
+            </p>
+            <p class="text-box-titr ">
+                عضو شوید!
+            </p>
+            <form id="inter-form" class="form-inline d-flex justify-content-center">
+                <input class="btn btn-secondary w-75" placeholder="آدرس ایمیل خود را وارد کنید">
+                <img id="inter-email" src="images/mail(1).svg" alt="search">
+            </form>
+
+        </section>
+        <section id="image-brand" class="col-md-8 d-flex justify-content-center align-items-center">
+            <img src="images/0.jpg" alt="brand">
+            <button class="btn btn-info w-50 btn_brand">
+                تمام برندهای معتبر را با ما تجربه کنید
+            </button>
+        </section>
+    </div>
+    <section class="container footer">
+
+        <div class="row">
+
+            <div class="col-md-2 footer_col_1">
+
+                <ul id="ul_col">
+
+                    <li class="li_col">
+                        خدمات مشتریان
+                    </li>
+
+                    <li class="li_col">
+                        سوالات متداول
+                    </li>
+
+                    <li class="li_col">
+                        بازگرداندن کالا
+                    </li>
+
+                    <li class="li_col">
+                        شرایط استفاده
+                    </li>
+
+                    <li class="li_col">
+                        حریم شخصی
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-2">
+
+                <ul id="ul_col_2">
+
+                    <li class="li_col">
+                        اطلاعات ما
+                    </li>
+
+                    <li class="li_col">
+                        درباره ما
+                    </li>
+
+                    <li class="li_col">
+                        تماس با ما
+                    </li>
+
+
+                </ul>
+
+            </div>
+            <div class="col-md-4 networks-social">
+                <p>
+                    به ما در رسانه های اجتماعی بپیوندید
+                </p>
+
+                <div class="row col-7 pull-3">
+                    <section class="s_net_t">
+                        <img src="images/twitter-logo-button.svg" alt="">
+                    </section>
+
+                    <section class="s_net_g">
+                        <img src="images/google-plus(2).svg" alt="">
+                    </section>
+                    <section class="s_net_f">
+                        <img src="images/facebook-logo-button.svg" alt="">
+                    </section>
+                </div>
+                <div class="row col-7 pull-3">
+                    <section class="s_net_t">
+                        <img class="ssd" src="images/twitter-logo-button.svg" alt="">
+                    </section>
+
+                    <section class="s_net_g">
+                        <img class="ddf" src="images/google-plus(2).svg" alt="">
+                    </section>
+                    <section class="s_net_f">
+                        <img class="ffg" src="images/facebook-logo-button.svg" alt="">
+                    </section>
+                </div>
+
+            </div>
+            <div class="col-md-4 text_end">
+                <p id="text_daner">
+                    تمامی حقوق این سایت متعلق به دانشگاه امیرکبیر بوده و هرگونه استفاده از منابع وطراحی های این سایت
+                    توسط
+                    نهادی خارج از دانشگاه با پیگرد قانونی همراه خواهد بود.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+</section>
+<script>
+    $(document).ready(function () {
+        $('.ffg').hover(function () {
+                $('.ffg').attr({src: "images/facebook.svg"});
+
+            },
+            function () {
+                $('.ffg').attr({src: "images/facebook-logo-button.svg"});
+            });
+        $('.ddf').hover(function () {
+                $('.ddf').attr({src: "images/google-plus(1).svg"});
+
+            },
+            function () {
+                $('.ddf').attr({src: "images/google-plus(2).svg"});
+            });
+
+        $('.ssd').hover(function () {
+                $('.ssd').attr({src: "images/twitter.svg"});
+
+            },
+            function () {
+                $('.ssd').attr({src: "images/twitter-logo-button.svg"});
+            });
+
+
+    });
+</script>
+</body>
+</html>

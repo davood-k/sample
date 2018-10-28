@@ -1,0 +1,665 @@
+@media screen and (max-width: 665px) {
+    .sign {
+        max-width: 320px;
+        min-width: 300px;
+    }
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    direction: rtl;
+}
+
+@font-face {
+    font-family: 'persian';
+url('fonts/yekan.ttf') format('truetype');
+url('fonts/yekan.eot') format('embeded-opentype');
+}
+
+header {
+    margin: 15px 0;
+}
+
+.navbar .nav-item {
+    font-family: b yekan;
+    width: 96px;
+    text-align: center;
+
+}
+
+.navbar .nav-item:hover {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: linear-gradient(217deg, #E8E8E8 0%, #E8E8E8 6%, #EBEBEB 54%, #ffffff 97%, #ffffff 100%);
+}
+
+.inter-btn {
+    margin-right: 5px;
+    background: rgba(6, 6, 6, 0.73);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .btn {
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    border-radius: 35px;
+    font-family: "B Yekan";
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+#horizental_1 {
+    width: 100%;
+    border: 1px solid #eee;
+    height: 1px;
+    margin: auto;
+}
+
+form #search_icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 35px;
+}
+
+.sign {
+    border: 1px solid #ccc;
+    margin: 150px auto;
+}
+
+.sign #close_sign {
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+}
+
+.sign #close_sign img {
+    width: 16px;
+    height: 16px;
+}
+
+.sign #text_inter {
+    font-family: "B Yekan";
+    font-size: 2em;
+    margin-top: 25px;
+}
+
+.sign #number-or-email {
+    font-family: "B Yekan";
+    font-size: 0.9em;
+}
+
+.sign .form-inline input {
+    border-radius: 25px;
+    margin: auto;
+}
+
+.sign #password {
+    font-family: "B Yekan";
+    font-size: 0.9em;
+}
+
+#text_rem {
+    margin-top: 15px;
+}
+
+#text_rem #remember {
+    font-family: "B Yekan";
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+
+.text_end #text_danger {
+    font-family: b yekan;
+    font-size: 1em;
+}
+
+.sign button {
+    width: 65px;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "B Yekan";
+    background: rgba(6, 6, 6, 0.73);
+}
+
+#carouselExampleIndicators {
+    margin: 15px auto;
+    width: 100%;
+    max-height: 345px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    margin: 10px auto;
+    width: 90%;
+    height: 310px;
+
+}
+
+#img-hover {
+    margin-bottom: 15px;
+    height: 230px;
+    width: 100%;
+}
+
+#img-hover .type_person {
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    position: relative;
+}
+
+#img-hover .type_person img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#img-hover .type_person img:hover {
+    opacity: 0.5;
+}
+
+.text-down-img {
+    position: absolute;
+    top: 183px;
+    z-index: 1;
+    right: 0;
+    height: 45px;
+    width: 100%;
+    background: linear-gradient(217deg, #E8E8E8 0%, #E8E8E8 6%, #EBEBEB 54%, #ffffff 97%, #ffffff 100%);
+    text-align: center;
+    font-family: "B Yekan";
+    line-height: 42px;
+    font-size: 1.5em;
+
+}
+
+.container #want-beter {
+    font-family: "B Yekan";
+    font-size: 1.5em;
+}
+
+.container #member-pls {
+    box-shadow: #aaa 2px 10px 8px;
+    float: left;
+    height: 310px;
+    background: rgba(19, 26, 255, 0.73);
+}
+
+#member-pls #image-member {
+    height: 41px;
+    width: 72px;
+    top: 50px;
+    position: relative;
+}
+
+#member-pls .text-box-titr {
+    font-family: "B Yekan";
+    font-size: 1em;
+    position: absolute;
+    top: 100px;
+    color: #fff;
+}
+
+#member-pls .text-box-titr:nth-child(3) {
+    top: 122px;
+    font-size: 1.3em;
+}
+
+#inter-form {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+#inter-form #inter-email {
+    right: 52px;
+    position: absolute;
+    top: 7px;
+    width: 24px;
+    height: 24px;
+}
+
+.container #image-brand {
+    border: 1px solid #eee;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container #image-brand img {
+    width: 100%;
+    height: 310px;
+    opacity: 0.15;
+
+}
+
+#image-brand .btn_brand {
+    background: rgba(19, 26, 255, 0.73);
+    position: absolute;
+    cursor: pointer;
+}
+
+.sec-down {
+    margin-bottom: 25px;
+}
+
+.footer {
+    background: #eee;
+    padding: 25px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+#ul_col .li_col:first-child {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.footer ul li {
+    cursor: pointer;
+}
+
+#ul_col .li_col {
+    font-family: "B Yekan";
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+#ul_col_2 .li_col:first-child {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#ul_col_2 .li_col {
+    font-family: b yekan;
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.networks-social p {
+    font-family: b yekan;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.networks-social .row img {
+    margin: 5px 5px;
+    width: 36px;
+    height: 36px;
+}
+
+.networks-social section {
+    cursor: pointer;
+}
+
+.main-index:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#main-right {
+    width: 255px;
+    float: right;
+}
+
+.menu-right {
+    width: 245px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background: #eee;
+    max-height: 204px;
+    overflow-y: auto;
+}
+
+.menu-right .span-item {
+    font-family: "b yekan";
+    font-size: 1.5em;
+}
+
+.ul-right-menu {
+    margin-top: 5px;
+}
+
+.ul-right-menu li {
+    font-family: "B Yekan";
+    font-size: 0.98em;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.ul-right-menu .li-right-menu {
+    padding-right: 35px;
+}
+
+.span-felesh img {
+    width: 10px;
+    height: 10px;
+}
+
+.ul-items {
+    display: none;
+}
+
+.horizental_row {
+    height: 1px;
+    background: #ccc;
+    margin: 15px;
+}
+
+.disoff {
+    display: none;
+}
+
+.filter_ul .title {
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.filter_ul li {
+    font-family: "B Yekan";
+    font-size: 0.98em;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.filter_ul div.checkbox{
+    float: right;
+    margin-left: 72px;
+}
+.filter_ul .brand{
+    width: 100%;
+    float: left;
+}
+.filter_ul .title span .img {
+    width: 16px;
+    height: 16px;
+    float: left;
+    left: 30px;
+    top: 5px;
+    position: relative;
+}
+.filter_ul .title span .imgs {
+    width: 16px;
+    height: 16px;
+    float: left;
+    left: 30px;
+    top: 5px;
+    position: relative;
+}
+
+.filter_ul .title {
+    margin-bottom: 10px;
+}
+
+.filter_ul .squer-color {
+    width: 24px;
+    height: 30px;
+    margin: 5px;
+    float: right;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+#main-left {
+    width: 845px;
+    float: left;
+    height: 400px;
+    padding-right: 38px;
+}
+
+#main-left #title-in {
+    margin: 12px 0px;
+    font-family: "b yekan";
+    font-size: 1.3em;
+}
+
+#main-left #up-fact span {
+    font-family: "b yekan";
+    font-size: 1.2em;
+    color: #999;
+}
+
+#best {
+    font-family: "b yekan";
+    font-size: 0.8em;
+    margin-right: 7px;
+}
+
+#main-left .boxes {
+    float: right;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#main-left .boxes .boxes-items {
+    float: right;
+    width: 200px;
+    height: 290px;
+    padding: 10px;
+    position: relative;
+    margin: 15px 0;
+}
+
+#main-left .boxes .boxes-items .pic-brand {
+    margin: auto;
+    padding: 0;
+    width: 170px;
+    height: 185px;
+    border: 1px solid #d0d5d8;
+}
+
+.boxes-items .name-litle {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "b yekan";
+    font-size: 0.9em;
+}
+
+.boxes-items .name-product {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "b yekan";
+    font-size: 0.9em;
+    color: #d0d5d8;
+}
+
+.boxes-items .price-off {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: "b yekan";
+    font-size: 0.8em;
+    color: #d0d5d8;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.boxes-items .price-off:nth-child(6) {
+    text-decoration: none;
+    color: red;
+}
+
+.boxes-items .price-off:nth-child(7) {
+    text-decoration: none;
+    margin: 0 40%;
+    color: red;
+}
+.circle-sec{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255,96,124,0.99);
+    position: absolute;
+    top:-8px;
+    right:-6px;
+    padding:11px;
+}
+.circle-sec span{
+    font-family: "persian";
+
+}
+
+
+#main3::after{
+    clear: both;
+    content:"";
+    display: block;
+}
+#sc-right{
+    float: right;
+    height: 450px;
+    width: 570px;
+    position: relative;
+
+}
+#sc-right-scrool{
+    width: 150px;
+    height: 100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    right:0;
+    margin-right: 10px;
+
+}
+#sc-right-box{
+    width: 365px;
+    height: 340px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin:55px 10px;
+}
+
+
+
+
+
+#sc-left{
+    margin-top: 55px;
+    width: 540px;
+    height: 600px;
+    float: left;
+    border: 1px solid #ccc;
+}
+#sc-left #name-brand{
+    font-family: B Yekan;
+    padding: 6px;
+}
+#sc-left #name-brand2{
+    font-family: B Yekan;
+    padding: 0 6px;
+    margin-bottom: 3px;
+}
+#sc-left .price-off{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: "b yekan";
+    font-size: 0.8em;
+    color: #515a5a;
+    margin-left: 5px;
+    text-decoration-line: line-through;
+    margin-right: 6px;
+}
+#sc-left .price-off:nth-child(4){
+    text-decoration: none;
+    color:red;
+}
+.color-just{
+    margin-bottom: 5px;
+    display: block;
+    font-family: b yekan;
+
+}
+.color-just span{
+    padding-right: 5px;
+    font-size: 0.8em;
+}
+#boxes-inter{
+    width: 100%;
+    height: 60px;
+}
+#boxes-inter .boxes-inter-3{
+    width: 50px;
+    height: 55px;
+    margin-right: 10px;
+    float: right;
+    border: 1px solid #ccc;
+}
+#sc-left #best{
+    width: 140px;
+    font-family: b yekan;
+
+}
+#sc-left span#guid{
+    font-family: b yekan;
+    font-size: 0.8em;
+    margin-bottom: 0.8em;
+}
+#div-basket{
+    height: 35px;
+    margin: 7px 0;
+}
+#basket-buy{
+    width: 200px;
+    height: 100%;
+    background: rgba(255,53,138,0.99);
+    padding-right: 15px;
+    position: relative;
+}
+#basket-buy #im-basket{
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+#im-basket img{
+    width: 24px;
+    height: 24px;
+}
+#icon-love img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#garanty{
+    width: 100%;
+    height: 35px;
+}
+#garanty li{
+    margin-right: 7px;
+    font-family: b yekan;
+    font-size: 0.9em;
+}
+#garanty li img{
+    width: 24px;
+    height: 24px;
+}
+#att{
+    font-family: b yekan;
+    margin-right: 7px;
+}
